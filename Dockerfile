@@ -1,7 +1,7 @@
-FROM python:3
+FROM python:3.7
 
-ADD src /src
+ADD . .
 
 RUN pip install coverage
 
-CMD [ "python", "./src/CalculatorTests.py" ]
+CMD ["python", "-m", "unittest", "discover", "-s","Tests"]
