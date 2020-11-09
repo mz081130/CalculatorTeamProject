@@ -9,7 +9,7 @@ class MyTestCase(unittest.TestCase):
         self.csv_reader = CsvReader('Tests/Data/addition.csv')
 
     def test_return_data_as_objects(self):
-        people = self.csv_reader.return_data_as_class('person')
+        people = self.csv_reader.return_data_as_objects('person')
         self.assertIsInstance(people, list)
         test_class = ClassFactory('person', self.csv_reader.data[0])
         for person in people:

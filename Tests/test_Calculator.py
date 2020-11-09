@@ -48,5 +48,7 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, round(float(row['Result']), 7))
 
 
+# Execute all the tests when the file is executed
+
 if __name__ == '__main__':
     unittest.main()

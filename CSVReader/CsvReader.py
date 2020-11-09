@@ -14,15 +14,15 @@ class CsvReader:
         self.data = []
         # opening the CSV file as text data
         with open(absolutepath(filepath)) as text_data:
-            # reading the CSV file as dictionary data strucuture
+            # reading the CSV file as dictionary data structure
             csv_data = csv.DictReader(text_data, delimiter=',')
 
             # displaying the contents of the CSV file
             for row in csv_data:
                 self.data.append(row)
-        pass
+    pass
 
-    def return_data_as_class(self, class_name):
+    def return_data_as_objects(self, class_name):
         objects = []
         for row in self.data:
             objects.append(ClassFactory(class_name, row))
