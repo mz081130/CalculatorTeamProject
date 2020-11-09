@@ -1,3 +1,3 @@
 import random
-n = random.randint(Math,french,english,finance)
+n = random.randint(0,100)
 print(n)
