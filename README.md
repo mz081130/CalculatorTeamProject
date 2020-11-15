@@ -17,14 +17,6 @@ Random Generator function
 
 # Muhammad Zafar
 
-Population Sampling functions
-
-* Simple random sampling
-* Confidence Interval For a Sample
-* Margin of Error
-* Cochran’s Sample Size Formula
-* How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
-
  Descriptive Statistics functions
 
 * Mean
@@ -35,7 +27,13 @@ Population Sampling functions
 * Z-Score
 
 # erik dannenberg
+Population Sampling functions
 
+* Simple random sampling
+* Confidence Interval For a Sample
+* Margin of Error
+* Cochran’s Sample Size Formula
+* How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
  Additional Modules
 
 * Helper Functions (Functions you use for checking types or performing repeated operations)
